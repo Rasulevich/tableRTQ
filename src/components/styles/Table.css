@@ -1,0 +1,43 @@
+.table {
+    display: flex;
+}
+.tableHeader {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #A1A1AA;
+    padding:9px 14px;
+    width: 200px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+
+}
+.tableRow {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #fff;
+    width: 200px;
+    padding: 8px 14px;
+}
+.newRow {
+    opacity: 0.5;
+    color: #fff;
+}
+.tableRow_edit {
+    width:fit-content;
+    cursor: pointer;
+    padding: 2px;
+}
+.tableRow_edit:hover {
+    background: #414144;
+}
+.deleteImg {
+    padding: 3px;
+}
